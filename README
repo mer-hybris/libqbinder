@@ -1,0 +1,10 @@
+libqbinder
+==========
+
+A library for using libgbinder from a Qt app.
+
+If Qt is compiled to use QEventDispatcherGlib for event loop then Qt apps
+can use libgbinder directly. However, if Qt is using QEventDispatcherUNIX
+based event loop then libqbinder is required, since it provides integration
+of libgbinder with Qt event loop in a way agnostic to the event dispatching
+mechanism.
