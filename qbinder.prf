@@ -1,0 +1,5 @@
+prefix=/usr
+exec_prefix=$${prefix}
+
+INCLUDEPATH += $${prefix}/include/qbinder
+LIBS += -L $${exec_prefix}/lib -lqbinder
