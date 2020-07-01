@@ -61,13 +61,13 @@ PUBLIC_HEADERS += \
 HEADERS += \
     $${PUBLIC_HEADERS}
 
-target.path = $${INSTALL_ROOT}$${PREFIX}/lib
+target.path = $$[QT_INSTALL_LIBS]
 
 headers.files = $${PUBLIC_HEADERS}
 headers.path = $${INSTALL_ROOT}$${PREFIX}/include/qbinder
 
 pkgconfig.files = $${PKGCONFIG_NAME}.pc
-pkgconfig.path = $${INSTALL_ROOT}$${PREFIX}/lib/pkgconfig
+pkgconfig.path = $$[QT_INSTALL_LIBS]/pkgconfig
 
 QMAKE_PKGCONFIG_NAME = $${PKGCONFIG_NAME}
 QMAKE_PKGCONFIG_DESTDIR = pkgconfig
