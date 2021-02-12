@@ -1,7 +1,7 @@
 Name:       libqbinder
 
 Summary:    Qt integration for libgbinder
-Version:    1.0.1
+Version:    1.0.2
 Release:    1
 License:    BSD
 URL:        https://github.com/mer-hybris/libqbinder
