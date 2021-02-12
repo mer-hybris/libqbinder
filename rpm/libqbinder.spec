@@ -46,6 +46,7 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
+%license LICENSE
 %{_libdir}/%{name}.so.*
 
 %files devel
